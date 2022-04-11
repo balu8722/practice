@@ -1,13 +1,50 @@
-
-
 /*Media Query for  Mobile */
 @media only screen and (max-width: 767px) {
-   
+  .review-slider .slick-dots li button{
+      position: absolute;
+      left: -95px;
+      top: -3px;
+      color: green;
+      font-size: 10px;
+    }
+    .body-pad{
+      padding: 30px 10px 30px 10px;
+    }
+    .review .word {
+      bottom: 13px;
+    }
 
 }
 
 
-  /* Media Query for Tablets  */
-  @media (min-width: 768px) and (max-width: 991px){
- 
+/* Media Query for Tablets  */
+@media (min-width: 768px) and (max-width: 991px){
+      .img-decoration{
+          height: 390px;
+      }
+      .slider-service .service-head{
+         font-size: 32px;
+      } 
+      .review-slider .slick-dots li button{
+          position: absolute;
+          left: -90px;
+          top: -4px;
+          color: green;
+          font-size: 10px;
+        }
+        .img-clean {
+          height: 296px;
+      }
+      .imap{
+        width: 200px;
+        height: 380px;
+      }
+      .body-pad{
+        padding: 30px 30px 30px 30px;
+      }
+      .review .word {
+        bottom: 13px;
+      }
+  
+      
 }

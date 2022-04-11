@@ -1,42 +1,45 @@
-.wrap{
-    background-color: rgb(19, 151, 151);
+.wrap {
+  background-color: rgb(19, 151, 151);
 }
-.wrap-head{
+.wrap-head {
   padding-bottom: 50px;
 }
-.wrap-head p{
+.wrap-head p {
   line-height: 1px;
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
-.wrap-circle{
+.wrap-circle {
   width: 60px;
   height: 60px;
   border-radius: 30px;
   background-color: #04d7a2;
 }
-.wrap-circle2{
+.wrap-circle2 {
   width: 60px;
   height: 60px;
   border-radius: 30px;
   background-color: #1d214e;
 }
-.circle-color{
+.circle-color {
   color: #fff;
   font-weight: 700;
+}
+.body-padding {
+  padding: 0 0 0 0;
 }
 .vl {
   border-left: 2px solid green;
   height: 30px;
 }
-.body-menu .d-flex i{
+.body-menu .d-flex i {
   font-size: 30px;
   color: green;
 }
-.img-clean{
+.img-clean {
   position: relative;
 }
-.circle{
+.circle {
   position: absolute;
   left: 0;
   bottom: 60px;
@@ -48,34 +51,27 @@
   display: block;
   padding: 30px 0 0 0;
 }
-.service-head{
+.service-head {
   font-size: 50px;
   font-weight: 700;
   line-height: 1;
 }
-.services{
+.services {
   padding: 60px 0px;
 }
-.bookservice{
+.bookservice {
   padding-bottom: 50px;
 }
-.slider{
+.slider {
   position: relative;
 }
-.review{
+.review {
   padding-bottom: 50px;
 }
-.grid{
+.grid {
   padding-bottom: 30px;
 }
-/* .slider-nav .slick-dots li button {
-    position: absolute;
-    right: 550px;
-    top: -280px;
-    color: green;
-    font-size: 10px;
-} */
-.img-decoration{
+.img-decoration {
   width: 100%;
   height: 300px;
   border-bottom-left-radius: 50px;
@@ -83,8 +79,8 @@
   border-top-right-radius: 50px;
   position: relative;
 }
-.rect-angle{
-  position:absolute;
+.rect-angle {
+  position: absolute;
   bottom: 0;
   right: 15px;
   width: 150px;
@@ -95,38 +91,37 @@
   border-top-right-radius: 50px;
   padding: 35px 0px;
 }
-.book-head{
+.book-head {
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
 }
-.about .d-flex h5{
+.about .d-flex h5 {
   font-size: 80px;
   line-height: 1;
   font-weight: 700;
 }
-.service-number{
+.service-number {
   font-size: 20px;
   font-weight: 700;
 }
-.review-slider .slick-dots li button{
+.review-slider .slick-dots li button {
   position: absolute;
   left: -170px;
   top: 12px;
   color: green;
   font-size: 10px;
 }
-.review .word{
+.review .word {
   position: absolute;
-  bottom: 14px;
+  bottom: 151px;
   left: 173px;
   font-weight: 700;
 }
-.thank{
+.thank {
   position: relative;
 }
-.thank-link{
-  margin: auto;
+.thank-link {
   width: 100px;
   height: 100px;
   border-radius: 50px;
@@ -136,18 +131,45 @@
   position: inherit;
   top: -24px;
 }
-.button-radius{
+.button-radius {
   border-radius: 30px;
 }
-.img-size{
+.services .button-pos {
+  margin-top: 20px;
+}
+.img-size {
   object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 40px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
-.imap{
+.imap {
   width: 300px;
   height: 350px;
   border: 0;
+}
+
+.slider-button a:focus {
+  box-shadow: none;
+}
+.body-pad {
+  padding: 30px 80px 30px 80px;
+}
+
+/* .collapse.show {
+  box-shadow: 1px solid darkgray;
+} */
+/* .slider-button {
+  box-shadow: 5px 10px darkgrey;
+} */
+.slider-button.slick-slide.slick-current.slick-active
+  .btn.btn-transparent.collapsed {
+  box-shadow: none;
+}
+.slider-button.slick-slide.slick-current.slick-active .btn.btn-transparent {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15) !important;
+}
+.slider-button.slick-slide.slick-current.slick-active .show {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
